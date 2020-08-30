@@ -64,13 +64,6 @@
     </url>
 
     <url>
-        <loc>https://dasso-co-kr.github.io/categories/spring/</loc>
-        <lastmod>2020-08-30T08:26:29.001Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://dasso-co-kr.github.io/categories/linux/</loc>
         <lastmod>2020-08-30T08:26:29.001Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -78,14 +71,21 @@
     </url>
 
     <url>
-        <loc>https://dasso-co-kr.github.io/categories/SQL/</loc>
-        <lastmod>2020-08-30T08:26:28.999Z</lastmod>
+        <loc>https://dasso-co-kr.github.io/categories/spring/</loc>
+        <lastmod>2020-08-30T08:26:29.001Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://dasso-co-kr.github.io/categories/SICP/</loc>
+        <lastmod>2020-08-30T08:26:28.999Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://dasso-co-kr.github.io/categories/SQL/</loc>
         <lastmod>2020-08-30T08:26:28.999Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
