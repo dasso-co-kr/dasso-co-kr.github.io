@@ -34,7 +34,7 @@
       <link href="/2020/08/30/menu/"/>
       <url>/2020/08/30/menu/</url>
       
-        <content type="html"><![CDATA[<ul><li><h1 id="Home"><a href="/">Home</a></h1></li><li><h2 id="H2-HexoBlog">H2 <a href="/hexoBlog">HexoBlog</a></h2></li></ul><ul><li>make hexoBlog</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><h1 id="Home"><a href="/">Home</a></h1></li><li><a href="/hexoBlog">HexoBlog</a></li></ul>]]></content>
       
       
       
