@@ -5,10 +5,10 @@
     
     <entry>
       <title></title>
-      <link href="/2020/08/30/home/"/>
-      <url>/2020/08/30/home/</url>
+      <link href="/2020/08/30/menu/"/>
+      <url>/2020/08/30/menu/</url>
       
-        <content type="html"><![CDATA[<p>테스트 하는 중인데<br>메뉴는 어떻게 구성해야 되는거지?</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="H1-is-separator">H1 is separator</h1><h2 id="H2">H2</h2><ul><li>find nearest header</li><li>this unordered list will find H2</li></ul><h3 id="H3">H3</h3><ul><li>find nearest header</li><li>this unordered list will find H3</li></ul><h1 id="H1-is-separator-v2">H1 is separator</h1><h4 id="H4">H4</h4><ul><li>find nearest header</li><li>this unordered list will find H4</li></ul><h5 id="H5">H5</h5><ul><li>find nearest header</li><li>this unordered list will find H5</li></ul><h6 id="H6">H6</h6><ul><li>find nearest header</li><li>this unordered list will find H6</li></ul>]]></content>
       
       
       
@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>set_blog</title>
-      <link href="/2020/08/30/menu/"/>
-      <url>/2020/08/30/menu/</url>
+      <title></title>
+      <link href="/2020/08/30/home/"/>
+      <url>/2020/08/30/home/</url>
       
-        <content type="html"><![CDATA[<p><a herf="#">hey apple</a></p>]]></content>
+        <content type="html"><![CDATA[<p>테스트 하는 중인데<br>메뉴는 어떻게 구성해야 되는거지?</p>]]></content>
       
       
       
