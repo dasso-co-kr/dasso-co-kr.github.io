@@ -136,6 +136,44 @@ function sidebar_toggle() {
 <li>logstash: version 7.8.1</li>
 </ul>
 <hr>
+<p>(노트북에 vmware 설치후 해볼 생각)</p>
+<h4 id="mariadb-설치">mariadb 설치</h4>
+<ul>
+<li>ref) <a href="https://mariadb.org/download/#mariadb-repositories" target="_blank" rel="noopener">https://mariadb.org/download/#mariadb-repositories</a><br>
+(mariadb 공홈)</li>
+</ul>
+<p>-click Downloads &gt; left side menu &gt; MariaDB Repositories<br>
+-select OS Version &amp; MariaDb server version</p>
+<p>follow these steps<br>
+sudo apt-get install software-properties-common gnupg-curl<br>
+sudo apt-key adv --fetch-keys ‘<a href="https://mariadb.org/mariadb_release_signing_key.asc" target="_blank" rel="noopener">https://mariadb.org/mariadb_release_signing_key.asc</a>’<br>
+sudo add-apt-repository ‘deb [arch=amd64,arm64,i386,ppc64el] <a href="https://mirror.yongbok.net/mariadb/repo/10.4/ubuntu" target="_blank" rel="noopener">https://mirror.yongbok.net/mariadb/repo/10.4/ubuntu</a> xenial main’</p>
+<p>sudo apt update<br>
+sudo apt install mariadb-server</p>
+<hr>
+<h4 id="java-설치">java 설치</h4>
+<p>(version 1.8 이상)</p>
+<p>sudo apt-get install openjdk-8-jdk</p>
+<hr>
+<h4 id="Logstash-설치">Logstash 설치</h4>
+<ul>
+<li>ref) <a href="https://www.elastic.co/kr/downloads/logstash" target="_blank" rel="noopener">https://www.elastic.co/kr/downloads/logstash</a><br>
+(공홈)<br>
+apt-get 방식</li>
+</ul>
+<p>wget -qO - <a href="https://artifacts.elastic.co/GPG-KEY-elasticsearch" target="_blank" rel="noopener">https://artifacts.elastic.co/GPG-KEY-elasticsearch</a> | sudo apt-key add -</p>
+<p>sudo apt-get install apt-transport-https</p>
+<p>echo “deb <a href="https://artifacts.elastic.co/packages/7.x/apt" target="_blank" rel="noopener">https://artifacts.elastic.co/packages/7.x/apt</a> stable main” | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list</p>
+<p>sudo apt-get update &amp;&amp; sudo apt-get install logstash</p>
+<hr>
+<h4 id="Elasticsearch-설치">Elasticsearch 설치</h4>
+<ul>
+<li>ref) <a href="https://www.elastic.co/kr/downloads/elasticsearch" target="_blank" rel="noopener">https://www.elastic.co/kr/downloads/elasticsearch</a></li>
+</ul>
+<ul>
+<li>하단의 install 명령어 제외하고는 logstash에서 이미 실행했던 로직들인 듯 함.</li>
+</ul>
+<p>sudo apt-get update &amp;&amp; sudo apt-get install elasticsearch</p>
 
 </article>
 
